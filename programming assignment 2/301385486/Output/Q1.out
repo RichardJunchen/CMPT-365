@@ -1,0 +1,75 @@
+Input sequence : ABCABCABC
+Output sequence :  0  1  2  3  5  4 
+
+Dicitionary : 
+0 A
+1 B
+2 C
+3 AB
+4 BC
+5 CA
+6 ABC
+7 CAB
+
+Input sequence : ABCAACBBACCABCABBBCAACCBBBCACA
+Output sequence :  0  1  2  0  0  2  1  1  7  5  4  3  9  5  11  9  13  5 
+
+Dicitionary : 
+0 A
+1 B
+2 C
+3 AB
+4 BC
+5 CA
+6 AA
+7 AC
+8 CB
+9 BB
+10 BA
+11 ACC
+12 CAB
+13 BCA
+14 ABB
+15 BBC
+16 CAA
+17 ACCB
+18 BBB
+19 BCAC
+
+Input sequence : BCAAAABACBACCCBABCABCABCCCBBABCABCAABACBBACCAABCABCABCAABCABCABC
+Output sequence :  1  2  0  5  0  1  0  2  8  2  12  8  3  7  4  3  13  14  17  4  7  9  1  11  22  15  28  27  21  16 
+
+Dicitionary : 
+0 A
+1 B
+2 C
+3 BC
+4 CA
+5 AA
+6 AAA
+7 AB
+8 BA
+9 AC
+10 CB
+11 BAC
+12 CC
+13 CCB
+14 BAB
+15 BCA
+16 ABC
+17 CAB
+18 BCC
+19 CCBB
+20 BABC
+21 CABC
+22 CAA
+23 ABA
+24 ACB
+25 BB
+26 BACC
+27 CAAB
+28 BCAB
+29 BCABC
+30 CAABC
+31 CABCA
+
